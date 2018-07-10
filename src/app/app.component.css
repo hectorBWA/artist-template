@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
+
+.header{
+    z-index: 99;
+    top:0;
+    left:0;
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+    margin:0;
+}
+
+.name{
+    color: rgb(252, 27, 27);
+    font-size: 50px;
+    margin:0;
+    text-align: center;
+    padding-top:10vh;
+}
+a{
+    color: rgb(223, 212, 212);
+    text-decoration: none;
+}
+body{
+    background-color: rgb(243, 237, 237);
+    font-family: 'Fredoka One', cursive;
+    margin: -8px;
+}
+
+.social{
+    margin-top:5vh;
+    z-index: 999;
+    text-align: center;
+}
+.social a{
+    font-size: 22px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.social a.apple:hover{
+    color:rgb(218, 10, 218);
+}
+.social a.spotify:hover{
+    color:rgb(10, 196, 10);
+}
+.social a.twitter:hover{
+    color:rgb(46, 46, 241);
+}
+.social a.soundcloud:hover{
+    color:rgb(255, 167, 2);
+}
+
+.videos{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    /* border-bottom: black solid 10px; */
+}
+.btn{
+    text-align: center;
+}
+#close{
+    
+    font-family: 'Fredoka One', cursive;
+    background: transparent;
+    border:solid white 3px;
+    color: white;
+    padding:10px;
+    font-size: 15px;
+    margin: 15px;
+    transition: all 200ms;
+}
+#close:hover{
+    background: white;
+    color:black;
+}
+
+.tour-dates{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 18px;
+}
+li{
+    padding:5px;
+    margin:5px;
+    list-style:none;
+}
+
+.tour{
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    transition: all 200ms;
+    background-color: rgba(245, 96, 96, 0.931);
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/02/Big-Red-Rough-Grunge-Texture.jpg');
+    background-size: cover;
+    background-blend-mode: hard-light;
+
+}
+.shop{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(243, 237, 237);
+}
+.shirts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    margin: 0;
+    padding:15px;
+    font-size: 80px;
+}
+
+#mail{
+    font-family: 'Fredoka One', cursive;
+    background: transparent;
+    border:solid black 3px;
+    color: black;
+    padding:10px;
+    font-size: 15px;
+    margin: 15px;
+    transition: all 200ms;
+}
+#mail:hover{
+    background: black;
+    color:white;
+}
+.contact{
+    width:100%;
+    background-color: rgb(243, 237, 237);
+    height: 80vh;
+
+}
+
+
+.block{
+    
+    font-family: 'Source Code Pro', monospace;
+      width:750px;
+      background-color: rgb(250, 249, 249);
+      height:300px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      margin-bottom:100px;
+      text-align: justify;
+     
+        padding: 10px;
+    
+    }
+    .send{
+        background-color: red;
+        padding: 5px;
+        color: white;
+        border: none;
+    }
+
+    /* p.block{
+            font-family: 'Source Code Pro', monospace;
+            padding:10px;
+            font-size:15px;
+          } */
