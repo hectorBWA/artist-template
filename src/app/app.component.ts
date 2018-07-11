@@ -15,10 +15,16 @@ export class AppComponent {
     }
     ShowButton() {
         this.showSelected = true;
-        this.showForm = true;
+        // this.showForm = true;
     }
     HideButton() {
         this.showSelected = false;
+        // this.showForm = false;
+    }
+    FormButton(){
+        this.showForm = true;
+    }
+    HideFormButton(){
         this.showForm = false;
     }
 }

@@ -12,18 +12,18 @@
 
 <div class="header">
 <h1 class="name"> <a href="#"> Name</a></h1>
-<div  class="social">
-    <a class="apple" href=""><i class="fa fa-apple" aria-hidden="true"></i>AppleMusic </a>
-    <a class="spotify" href=""><i class="fa fa-spotify" aria-hidden="true"></i>Spotify </a>
-    <a class="twitter" href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter </a>
-    <a class="soundcloud" href=""><i class="fa fa-soundcloud" aria-hidden="true"></i>Soundcloud</a>
+
+    <br>
+    <button id="close" (click)="HideButton()">Close</button>
+<button id="close" (click)="ShowButton()">Open</button>
   </div>
-</div>
+  
 <!-- https://www.youtube.com/embed/BMayAfYlN_k -->
 
+
 <div class="videos" *ngIf="showSelected">
-    <button id="close" (click)="HideButton()">CLOSE VIDEO</button>
-    <iframe width="100%" height="87%" src="https://www.youtube.com/embed/DfxLige8di4?autoplay=1&rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    
+    <iframe width="60%" height="80%" src="https://www.youtube.com/embed/DfxLige8di4?autoplay=1&rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 <div class="tour">
   <h1>TOUR DATES</h1>
@@ -60,12 +60,12 @@
     <img src="https://cdn.shopify.com/s/files/1/1204/4700/products/001CSD251036_GRN_A_1024x1024_burned_300x300.png?v=1519865973" alt="">
   </div>
 </div>
-<div class="btn">
-<button id="mail" (click)="ShowButton()"> JOIN MAILING LIST </button>
-</div>
-<div class="contact" *ngIf="showForm">
-    <div class="block">
 
+
+<div class="contact">
+    <div class="block">
+      <div class="btn"> JOIN MAILING LIST 
+      </div>
         <p> Be the very first to hear important announcments, release dates, new music and much more. If you would like to be updated with everything new from Artist fill out the form below.</p>
         <form action="mailto:example@gmail.com" method="post" enctype="text/plain">
             Name:
@@ -77,5 +77,12 @@
             <input class="send" type="submit" value="Send">
             </form>
 </div>
+<div  class="social">
+  <a class="apple" href=""><i class="fa fa-apple" aria-hidden="true"></i>AppleMusic </a>
+  <a class="spotify" href=""><i class="fa fa-spotify" aria-hidden="true"></i>Spotify </a>
+  <a class="twitter" href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter </a>
+  <a class="soundcloud" href=""><i class="fa fa-soundcloud" aria-hidden="true"></i>Soundcloud</a>
+  </div>
 </div>
+
 </body>
